@@ -15,18 +15,6 @@ public class ActionBarActivity extends AppCompatActivity {
         setContentView(R.layout.activity_actionbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("我是标题");
-
-//        int id1 = getResources().getIdentifier("action_bar_container", "id", getPackageName());
-//        View view1 = findViewById(id1);
-//        view1.setBackgroundResource(0);
-//        ViewCompat.setElevation(view1, 0);
-//        int id2 = getResources().getIdentifier("decor_content_parent", "id", getPackageName());
-//        View view2 = findViewById(id2);
-//        ViewCompat.setElevation(view2, 0);
-//        view2.setBackgroundResource(0);
-//        getSupportActionBar().setBackgroundDrawable(null);
-//        getSupportActionBar().setElevation(0);
-//        getSupportActionBar().setSplitBackgroundDrawable(null);
     }
 
     @Override
