@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#D3D4D5</color>
+    <color name="colorAccent">#CB202D</color>
+
+    <color name="textColorPrimary">#333333</color>
+    <color name="textColorSecondary">#666666</color>
+    <color name="textColorSecondaryLight">#999999</color>
+    <color name="facebook_color">#3A5898</color>
+    <color name="wechat_color">#58BB1F</color>
+    <color name="bg_grey">#FAFAFA</color>
+</resources>
