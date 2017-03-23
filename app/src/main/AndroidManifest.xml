@@ -14,10 +14,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ToolBarActivity" />
         <activity
             android:name=".ActionBarActivity"
             android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".ToolBarActivity"
+            android:theme="@style/AppTheme.ToolBar" />
     </application>
 
 </manifest>
