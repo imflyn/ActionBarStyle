@@ -9,15 +9,15 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:stateListAnimator="@null">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
             android:minHeight="?attr/actionBarSize"
-            app:elevation="1dp" />
+            app:titleTextAppearance="@style/AppTheme.ToolbarTitleTextStyle" />
     </android.support.design.widget.AppBarLayout>
 
 </LinearLayout>

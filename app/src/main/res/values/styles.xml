@@ -8,17 +8,16 @@
 
     <style name="AppTheme.ActionBar" parent="AppTheme">
         <item name="windowActionBarOverlay">false</item>
-        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:windowContentOverlay">@null</item>
         <item name="actionBarStyle">@style/AppTheme.ActionBarStyle</item>
         <item name="actionMenuTextAppearance">@style/AppTheme.MyActionBarMenuTextStyle</item>
         <item name="actionMenuTextColor">@color/wechat_color</item>
         <item name="homeAsUpIndicator">@drawable/icon_back_black</item>
     </style>
 
-    <style name="AppTheme.ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
+    <style name="AppTheme.ActionBarStyle" parent="Widget.AppCompat.Light.ActionBar">
         <item name="titleTextStyle">@style/AppTheme.ActionBarTitleTextStyle</item>
-        <item name="background">@color/colorPrimary</item>
-        <item name="elevation">1dp</item>
+        <item name="background">@drawable/bg_frame</item>
     </style>
 
     <style name="AppTheme.ActionBarTitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
@@ -30,5 +29,23 @@
         <item name="android:textSize">12sp</item>
     </style>
 
-    <style name="AppTheme.ToolBar" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <!-- ============================================================================================================= -->
+    <style name="AppTheme.ToolBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextAppearance">@style/AppTheme.MyActionBarMenuTextStyle</item>
+        <item name="actionMenuTextColor">@color/wechat_color</item>
+        <item name="homeAsUpIndicator">@drawable/icon_back_black</item>
+    </style>
+
+    <style name="AppTheme.ToolbarTitleTextStyle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/facebook_color</item>
+    </style>
+
+    <!--<style name="AppTheme.AppBarLayout">-->
+        <!--&lt;!&ndash;<item name="android:background">@drawable/aa</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="elevation">1dp</item>&ndash;&gt;-->
+    <!--</style>-->
 </resources>
