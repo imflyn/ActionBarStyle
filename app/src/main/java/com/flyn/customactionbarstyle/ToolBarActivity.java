@@ -22,9 +22,7 @@ public class ToolBarActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("我是标题");
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            ViewCompat.setElevation(findViewById(R.id.appbar), 3);
-        } else {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
             ViewCompat.setBackground(findViewById(R.id.appbar), ContextCompat.getDrawable(this, R.drawable.bg_frame));
         }
     }
