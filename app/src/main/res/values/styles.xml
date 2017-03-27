@@ -44,8 +44,4 @@
         <item name="android:textColor">@color/facebook_color</item>
     </style>
 
-    <!--<style name="AppTheme.AppBarLayout">-->
-        <!--&lt;!&ndash;<item name="android:background">@drawable/aa</item>&ndash;&gt;-->
-        <!--&lt;!&ndash;<item name="elevation">1dp</item>&ndash;&gt;-->
-    <!--</style>-->
 </resources>
